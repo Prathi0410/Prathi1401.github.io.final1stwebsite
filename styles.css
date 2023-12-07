@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Fix contrast issues in the navigation links */
+nav a {
+    color: #fff; /* Set text color to white */
+    background-color: #333; /* Set background color to the same as header */
+    padding: 10px; /* Add padding for better readability and clickability */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.pet-services-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pet-service {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.filter-bar {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}

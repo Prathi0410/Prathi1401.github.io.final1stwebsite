@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pet Care</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Care</h1>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pet Services Listings -->
+    <section class="pet-services-listings">
+        <!-- Sample Pet Service Listing -->
+        <article class="pet-service">
+            <img src="pet1.jpg" alt="Pet Service Image">
+            <h2>Dog Walking</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo at elit posuere ullamcorper.</p>
+            <p class="price">$20 per walk</p>
+            <button class="contact-btn">Contact Us</button>
+        </article>
+
+        <!-- Add more pet service listings as needed -->
+    </section>
+
+    <!-- Filter/Search Bar -->
+    <section class="filter-bar">
+        <label for="service-type">Service Type:</label>
+        <select id="service-type">
+            <option value="dog-walking">Dog Walking</option>
+            <option value="pet-sitting">Pet Sitting</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Enter location">
+
+        <button id="search-btn">Search</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
